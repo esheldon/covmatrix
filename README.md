@@ -1,7 +1,8 @@
 covmatrix
 =========
 
-Code to calculate ovariance matrices of probability distributions
+Code to calculate Hessian matrices of functions and covariance matrices of
+probability distributions
 
 examples
 --------
@@ -9,6 +10,8 @@ examples
 #
 # calculate the covariance matrix
 #
+
+from numpy import exp, array, linalg
 
 h=1.0e-6
 covtrue=array( [ [ 400.0, 0.2, 0.1  ],
