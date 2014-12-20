@@ -11,6 +11,7 @@ examples
 # calculate the covariance matrix
 #
 
+from covmatrix import calc_cov, calc_hess
 from numpy import exp, array, linalg
 
 covtrue=array( [ [ 400.0, 0.2, 0.1  ],
