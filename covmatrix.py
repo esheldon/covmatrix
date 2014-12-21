@@ -33,7 +33,7 @@ def calc_cov(func, x, h):
     parameters
     ---------
     func: function
-        A function representing the log(probability).
+        A function representing the log(probability(x))
     x: array
         the position about which to calculate the deriviatives
     h: scalar or array
@@ -64,7 +64,7 @@ def calc_hess(func, x, h):
     parameters
     ---------
     func: function
-        A function representing the log(probability).
+        A function than takes an array x as the argument
     x: array
         the position about which to calculate the deriviatives
     h: scalar or array
