@@ -95,7 +95,7 @@ def calc_hess(func, x, h):
 def calc_partial_ij( func, xin, i, j, h, k):
     """
     calculate the second partial with respect to a single variable.
-    three function evaluations instead of 4
+    Four function evaluations
 
     f(x+h,y+k) - f(x+h,y-k) - f(x-h,y+k) + f(x-h,y-k)
     -------------------------------------------------
